@@ -1,5 +1,8 @@
+<script setup>
+import Home from './components/Home.vue';
+</script>
 <template>
-  <h1 class="text-3xl font-bold font-main underline">
-    هلو world!
-  </h1>
+  <div class="font-medium font-main">
+    <Home/>
+  </div>
 </template>
