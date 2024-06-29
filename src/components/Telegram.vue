@@ -3,6 +3,7 @@
         <div
             class="w-full px-[5%] lg:px-[10%] rounded-md bg-primary text-secondary flex flex-col-reverse  sm:flex-row justify-between items-center gap-5 ">
             <div class="sm:w-1/2 flex-col flex justify-center items-center gap-5 pb-5 sm:pt-5">
+                <span class="text-2xl font-bold">به کانال تلگرام ما بپیوندید</span>
                 <p class="text-sm text-center">Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Laborum
                     reprehenderit facere cupiditate quas.</p>

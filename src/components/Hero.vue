@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full px-[5%] h-[90vh] min-h-[20rem] text-primary  bg-secondary flex flex-col md:flex-row items-center ">
+    <div class="w-full px-[5%] h-screen min-h-[20rem] text-primary  bg-secondary flex flex-col md:flex-row items-center ">
         <img class="w-80 h-80" src="/images/pink.png" alt="">
         <div class="flex flex-col justify-start items-center text-center gap-5">
 
