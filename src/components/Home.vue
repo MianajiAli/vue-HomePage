@@ -7,7 +7,7 @@ import Blog from './Blog.vue';
 import Footer from './Footer.vue';
 </script>
 <template>
-    <div class="name bg-white min-h-screen">
+    <div class="name bg-background min-h-screen">
         <Header/>
         <Hero/>
         <Products/>

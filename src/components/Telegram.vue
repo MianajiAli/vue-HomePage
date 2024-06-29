@@ -1,10 +1,22 @@
 <template>
-    <div class="w-full px-[5%] bg-white h-80 flex justify-center items-center my-20">
-        <div class="w-full h-[7rem] rounded-md bg-primary text-secondary flex justify-between px-40 items-center ">
-            <button>Join Telegram</button>
-            <span class="w-[50%] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum reprehenderit facere cupiditate quas.</span>
-            <div class="w-40 h-[20rem] rounded-md bg-secondary"> </div>
-            
+    <div class="w-full mt-[12rem] md:mt-[15rem] px-[5%] my-20 flex justify-center items-center">
+        <div
+            class="w-full px-[5%] lg:px-[10%] rounded-md bg-primary text-secondary flex flex-col-reverse  sm:flex-row justify-between items-center gap-5 ">
+            <div class="sm:w-1/2 flex-col flex justify-center items-center gap-5 pb-5 sm:pt-5">
+                <p class="text-sm text-center">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Laborum
+                    reprehenderit facere cupiditate quas.</p>
+                <button class="text-primary bg-secondary border-secondary border-[3px] py-2 w-[15rem] rounded-md">Join
+                    Telegram</button>
+
+            </div>
+            <div class="relative w-[12rem] sm:w-1/2 h-[6rem] ">
+                <div
+                    class="w-full h-[20rem] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-[75%] text-center flex justify-center items-center">
+                <img class="h-full object-contain scale-125 skew-y-6" src="/images/phone.png" alt="">
+                </div>
+            </div>
+
         </div>
     </div>
 </template>
