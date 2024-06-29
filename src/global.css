@@ -1,3 +1,7 @@
-p{
+p {
     @apply text-sm opacity-70 font-medium;
+}
+
+footer span {
+    @apply bg-background text-primary font-black mb-10 px-1;
 }

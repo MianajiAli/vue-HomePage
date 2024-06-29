@@ -9,9 +9,9 @@ module.exports = {
         'main': "MainFont",
       },
       colors: {
-        primary: '#388E3C',
-        secondary:'#E8F5E9',
-        background:'#fff'
+        primary: '#0891b2',
+        secondary:'#e0f2fe',
+        background:'#fff9ff'
       }
     },
   },
