@@ -1,13 +1,13 @@
 <template>
     <footer class="bg-primary text-secondary w-full ">
         <div
-            class="w-full h-full px-[5%] py-10 flex flex-col-reverse md:flex-row-reverse justify-between  items-start gap-5 text-right">
+            class="w-full h-full px-[5%] py-10 flex flex-col-reverse md:flex-row-reverse justify-between  items-center md:items-start gap-5 text-center md:text-right ">
             <div class="w-80 ">
                 <span>درباره ما</span>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro odio est itaque nostrum quas nihil
                     aliquam veritatis quisquam fugiat, numquam officiis ex omnis, nemo ullam molestias cumque dolorem
                     perspiciatis optio.</p>
-                <div class="w-full flex justify-end gap-2 my-5 opacity-90">
+                <div class="w-full flex items-center justify-center md:justify-end gap-2 my-5 opacity-90">
                     <div class="w-8 h-8 bg-secondary text-primary rounded-full flex justify-center items-center">s</div>
                     <div class="w-8 h-8 bg-secondary text-primary rounded-full flex justify-center items-center">s</div>
                     <div class="w-8 h-8 bg-secondary text-primary rounded-full flex justify-center items-center">s</div>
