@@ -1,6 +1,6 @@
 <template>
-    <div class="w-full mt-[12rem] md:mt-[15rem] px-[5%] my-20 flex justify-center items-center">
-        <div
+    <div class=" w-full mt-[12rem] md:mt-[15rem] px-[5%] my-20 flex justify-center items-center">
+        <div  data-aos="fade-up"
             class="w-full px-[5%] lg:px-[10%] rounded-md bg-primary text-secondary flex flex-col-reverse  sm:flex-row justify-between items-center gap-5 ">
             <div class="sm:w-1/2 flex-col flex justify-center items-center gap-5 pb-5 sm:pt-5">
                 <span class="text-2xl font-bold">به کانال <b class="bg-secondary text-primary px-2 ">تلگرام</b> ما بپیوندید</span>

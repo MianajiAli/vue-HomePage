@@ -1,5 +1,5 @@
 <template>
-    <div class=" w-[18rem] min-h-[16rem] bg-background text-primary rounded-xl pb-3">
+    <div  data-aos="fade-up" class=" w-[18rem] min-h-[16rem] bg-background text-primary rounded-xl pb-3">
         <div>
             <img class="w-full h-[8rem] p-2 rounded-2xl object-cover " src="/images/296-300x200.jpg" alt="">
         </div>

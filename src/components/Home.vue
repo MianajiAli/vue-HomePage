@@ -10,9 +10,24 @@ import Footer from './Footer.vue';
     <div class="name bg-background min-h-screen">
         <Header/>
         <Hero/>
-        <Products/>
+        <Products />
         <Telegram/>
         <Blog/>
         <Footer/>
     </div>
 </template>
+
+<script>
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+export default {
+    name: 'App',
+    mounted() {
+        AOS.init({
+            duration: 800,
+            once: true, // Animation happens only once - while scrolling down
+        });
+    }
+};
+</script>
